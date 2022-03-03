@@ -1,0 +1,115 @@
+html {
+  font-size: 15px !important;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.text-center {
+  cursor: pointer;
+}
+
+.price-discount.has-discount {
+  color: rgb(255, 66, 78);
+}
+
+.price-discount {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 4px;
+  color: rgb(56, 56, 61);
+}
+
+.price-discount__price {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.price-discount.has-discount .price-discount__discount {
+  padding: 0px 2px;
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 8px;
+  border: 1px solid rgb(255, 66, 78);
+  border-radius: 2px;
+  background-color: rgb(255, 240, 241);
+  color: rgb(255, 66, 78);
+}
+
+.price-discount__price_origin {
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+
+.text-through {
+  text-decoration: line-through;
+}
+
+.price-discount.course {
+  margin-bottom: 2.2rem;
+  margin-top: 1rem;
+}
+
+.price-discount.course .price-discount__price {
+  font-size: 1.5rem;
+}
+
+.price-discount.course .price-discount__price_origin {
+  font-size: 1rem;
+}
+
+.price-discount.course .price-discount__discount {
+  font-size: 1rem;
+}
+
+.btn.btn-add-to-cart {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 57, 69);
+}
+
+.card_hover:hover {
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 20px;
+  z-index: 1;
+}
+
+.list_video > a {
+  cursor: pointer !important;
+}
+
+.list_video > a > div > div:hover span {
+  transition: color 0.2s ease, background-color 0.2s ease;
+  color: #009ef7 !important;
+}
+
+.list_video > a > div > div:hover div {
+  transition: color 0.2s ease, background-color 0.2s ease;
+  color: #009ef7 !important;
+}
+
+.video_active {
+  transition: color 0.2s ease, background-color 0.2s ease;
+  color: #009ef7 !important;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .price-discount.course {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .price-discount.course .price-discount__price {
+    font-size: 1.2rem;
+  }
+
+  .price-discount.course .price-discount__price_origin {
+    font-size: 0.8rem;
+  }
+
+  .price-discount.course .price-discount__discount {
+    font-size: 0.8rem;
+  }
+}
